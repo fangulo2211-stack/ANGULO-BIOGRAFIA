@@ -29,3 +29,16 @@ footer { background-color: #1e1e24; color: white; text-align: center; padding: 1
 /* HABILIDADES */
 .hab-egoista { background: #e0f7fa; color: #006064; padding: 5px 10px; border-radius: 5px; font-weight: bold; }
 .hab-ia { color: #fff; background-color: #333; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+/* AJUSTE PARA EL LOGO DE X */
+.icon-x {
+    height: 25px;      /* Esto controla el tamaño, cámbialo a 20px si aún es grande */
+    width: 25px;       /* Mantiene el logo cuadrado */
+    vertical-align: middle; /* Alinea el logo con el texto */
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+/* Opcional: Si quieres que cambie un poco al pasar el mouse */
+.icon-x:hover {
+    transform: scale(1.1);
+}
